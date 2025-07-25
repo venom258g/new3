@@ -1,0 +1,627 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+  padding: 0 0 0 0 !important;
+}
+
+@font-face {
+  font-family: albert;
+  src: url(../fonts/albert.otf);
+}
+
+@font-face {
+  font-family: gotham;
+  src: url(../fonts/gotham.ttf);
+}
+
+header{
+  z-index: 25 !important;
+}
+
+.run{
+  position: relative;
+  top: 380px !important;
+  z-index: 6;
+}
+#ser{
+  position: relative;
+  top: -70px;
+  height: 40px;
+  width: 380px;
+  border-radius: 20px;
+  text-decoration: none;
+  outline: none;
+}
+#stick{
+  position: relative;
+  top: -60px;
+  left: -53px;
+}
+
+.search{
+  position: relative;
+  left: 50%;
+}
+.foot1{
+  position: relative;
+  left: 15%;
+}
+
+#play{
+  position: relative;
+  top: -280px;
+  left: 18.5%;
+}
+
+#join{
+  position: relative;
+  left: 18.5%;
+  font-family: 'Roboto' !important;
+  font-size: 30px;
+  color: #FFF;
+  z-index: 3;
+  top: -300px;
+}
+
+.cookies{
+  position: relative;
+  border: 2px solid black;
+  height: 70px;
+  background: #;
+  left: 40%;
+  border-radius: 20px;
+  width: 300px;
+  text-align: center;
+  z-index: 5;
+  top: 80px;
+  display: flex;
+}
+
+#cookbtn{
+  z-index: 5;
+  position: relative;
+  height: 35px;
+  width: 70px;
+  background-color: #000;
+  top: 16px;
+  border-radius: 50px;
+  color: #FFF;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  left: 15%;
+}
+
+#cook{
+  position: relative;
+  padding-left: 30px;
+  left: 13%;
+  color: black !important;
+}
+
+#fam{
+  position: relative;
+  text-align: center;
+}
+
+.foot2{
+  position: absolute;
+  top: 32%;
+  left: 29%;
+}
+
+#g11{
+  position: relative;
+  top: 250px !important;
+  left: 230px !important;
+  z-index: 2;
+  color: #FFF;
+}
+
+.foot3{
+  position: absolute;
+  top: 55%;
+  left: 43%;
+}
+
+.icos{
+  position: relative;
+  left: -290px !important;
+}
+
+html{
+    font-family: "Poppins",Arial,sans-serif;
+    scroll-behavior: smooth !important;
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+}
+
+body{
+  height: auto;
+  width: auto;
+  overflow-x: hidden !important;
+  background-color: #FFFFFF !important;
+  font-family: "Poppins",Arial,sans-serif;
+  color: #000000 !important;
+}
+
+#menu{
+  position: absolute;
+  top: 15px !important;
+  right: 10% !important;
+  z-index: 1;
+}
+
+
+#head{
+  position: relative;
+  text-align: center;
+  top: 12px;
+  font-family: 'albert', cursive !important;
+}
+
+h1{
+    color: #000;
+}
+
+#search{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    z-index: 1;
+}
+
+#angel{
+  position: absolute;
+  left: 56%;
+  top: 1% !important;
+}
+
+#winy{
+  position: relative;
+  left: 53%;
+  top: -64px;
+}
+
+#guy{
+  width: 925px;
+  height: 560px;
+  border: 3px solid #000;
+  border-radius: 15px;
+  position: relative;
+  left: 0%;
+  -webkit-filter: brightness(80%);
+}
+
+
+#guy:hover {
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+#g1{
+  position: absolute;
+  left: 20%;
+  top: 43%;
+  font-size: 40px;
+  color: white;
+  z-index: 1 !important;
+  font-family: "Poppins",Arial,sans-serif !important;
+}
+
+#dan{
+  position: absolute;
+  z-index: 1 !important;
+  left: 15%;
+  top: 99%;
+  color: white;
+  font-family: 'albert', cursive !important;
+}
+
+#dani{
+  position: absolute;
+  z-index: 1 !important;
+  left: 28%;
+  top: 99%;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.threes{
+  position: relative;
+  left: 10% !important;
+}
+
+#az{
+  position: relative;
+  left: 12%;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  font-size: 36px;
+}
+
+#azi{
+  position: relative;
+  float: right;
+  right: 12%;
+  top: -60px;
+}
+
+.azi{
+  position: relative;
+  left: 24%;
+  border-radius: 50%;
+}
+
+.threes{
+  position: relative;
+  left: 12%;
+  -webkit-filter: brightness(100%);
+  display: flex;
+}
+
+#three1:hover {
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+#three2:hover {
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+#three3:hover {
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+#danii{
+  position: relative;
+  height: 40px;
+  width: 40px;
+  left: 5%;
+  border-radius: 50%;
+}
+
+.danf{
+  position: absolute;
+  left: -30px;
+  top: 250px;
+  z-index: 2;
+}
+
+.danf0{
+  position: absolute;
+  left: 300px;
+  top: 250px;
+  z-index: 2;
+}
+
+.danf1{
+  position: absolute;
+  left: 640px;
+  top: 250px;
+  z-index: 2;
+}
+
+#t, #q, #p{
+  position: relative;
+  left: 12%;
+}
+
+.foursome{
+  position: relative;
+  display: flex;
+  left: 12%;
+  height: 250px !important;
+  width: 300px !important;
+}
+
+#f1:hover , #f2:hover , #f3:hover , #f4:hover {
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+p{
+  font-family: 'albert', cursive !important;
+  z-index: 1;
+  font-size: 18px;
+  color: white;
+}
+
+#p1{
+  position: relative;
+  left: -830px;
+}
+
+#p2{
+  position: relative;
+  left: -680px;
+}
+
+#p3{
+  position: relative;
+  left: -480px;
+}
+
+#p4{
+  position: relative;
+  left: -338px;
+}
+
+.five{
+  position: relative;
+  left: 12%;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 23px;
+}
+
+
+#ff1, #ff2, #ff3, #ff4, #ff5, #ff6{
+  width: 280px;
+  height: 160px;
+}
+
+#pp1{
+  position: relative;
+  top: -160px;
+  left: -900px;
+}
+
+#pp2{
+  position: relative;
+  top: -290px;
+  left: 30%;
+}
+
+#pp3{
+  position: relative;
+  top: -290px;
+  left: 42%;
+}
+
+#pp4{
+  position: relative;
+  left: -360px;
+  top: -110px;
+}
+
+#pp5{
+  position: relative;
+  left: -240px;
+  top: -110px;
+}
+
+#pp6{
+  position: relative;
+  left: -110px;
+  top: -110px;
+}
+
+#ff1:hover, #ff2:hover, #ff3:hover, #ff4:hover, #ff5:hover, #ff6:hover{
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* Responsive Code */
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
+@media (max-width: @screen-xs-max) { ... }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... }
+
+.sixsome{
+  position: relative;
+  left: 11.5%;
+}
+
+#s1, #s2, #s3, #s4{
+  height: auto !important;
+  width: 280px !important;
+}
+
+.grid-container {
+  display: flex !important;
+  grid-column-gap: 50px !important;
+}
+
+#ss2{
+  position: absolute;
+  top: 120%;
+  left: 170px;
+}
+
+#ss3{
+  position: absolute;
+  left: 420px;
+}
+
+#ss4{
+  position: absolute;
+  top: 120%;
+  left: 620px;
+}
+
+.conclusion{
+  position: relative;
+  top: 400px !important;
+}
+#s1:hover, #s2:hover, #s3:hover, #s4:hover{
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+#s2{
+  position: relative;
+  top: 80px !important;
+}
+
+#s4{
+  position: relative;
+  top: 80px !important;
+}
+
+#sp1{
+  position: relative;
+  top: -150px !important;
+  left: 15px !important;
+  z-index: 2;
+}
+
+#sp2{
+  position: relative;
+  top: -150px !important;
+  left: 260px !important;
+  z-index: 2;
+}
+
+#sp3{
+  position: relative;
+  top: -300px !important;
+  left: 520px !important;
+  z-index: 2;
+}
+
+#sp4{
+  position: relative;
+  top: -280px !important;
+  left: 770px !important;
+  z-index: 2;
+}
+
+#line{
+  text-align: center;
+  position: relative;
+  top: -59px;
+}
+
+.doctors{
+  position: relative;
+  left: 10%;
+  display: flex !important;
+  flex-flow: row wrap !important;
+}
+
+#readb{
+  position: absolute;
+  top: 1050px;
+  left: -750px !important;
+}
+
+#d1, #d2, #d3, #d4, #d5, #d6{
+  -webkit-filter: grayscale(100%);
+}
+#d1:hover, #d2:hover, #d3:hover, #d4:hover, #d5:hover, #d6:hover {
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: 1s time;
+  -o-transition: 1s time;
+  transition: 1s time;
+}
+
+#d11, #d22{
+  -webkit-filter: grayscale(0%);
+}
+#d11:hover, #d22:hover{
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: 1s time;
+  -o-transition: 1s time;
+  transition: 1s time;
+}
+
+
+#posbug{
+  position: relative;
+  left: 10px !important;
+}
+
+figcaption{
+  color: #ffffff;
+  position: relative;
+  left: 1%;
+}
+
+.b1{
+  border: 2px solid #000 !important;
+  background: #000 !important;
+  color: #FFF;
+  text-transform: uppercase;
+  position: relative;
+  top: -50px;
+  left: 42%;
+  text-align: center;
+  padding-bottom: 28px !important;
+  font-size: 18px;
+  border-radius: 40px;
+  border: none;
+  text-decoration: none;
+  height: 50px;
+  width: 200px;
+  z-index: 4;
+}
+
+#m{
+  position: relative;
+  left: 38%;
+  top: -8px;
+}
+.b2{
+  border: 2px solid #000 !important;
+  background: #000 !important;
+  color: #FFF;
+  text-transform: uppercase;
+  position: relative;
+  top: -50px;
+  left: 42%;
+  text-align: center;
+  padding-bottom: 28px !important;
+  font-size: 18px;
+  border-radius: 40px;
+  border: none;
+  text-decoration: none;
+  height: 48px;
+  width: 200px;
+  z-index: 4;
+}
